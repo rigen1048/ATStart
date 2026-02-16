@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ATStart",
+  "version": "1.0",
+  "description": "Opens specified websites when Chrome starts, cleanly replacing the default new tab when possible",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"]
+}
